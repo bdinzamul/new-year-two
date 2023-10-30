@@ -59,9 +59,75 @@
     padding: 15px;
 }
 .failure-list{
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #444343;
     font-size: medium;
     padding-left: 25px;
-    list-style: circle;
+    list-style-image: url(../images/icons/icons8-check-mark-16.png);
+}
+
+/* my plan */
+.my-plan {
+    
+}
+
+.my-plan-tittle {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.plan-box {
+    padding-top: 50px;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+
+}
+
+.plan-icon {
+    padding: 20px;
+   
+}
+
+.plan-tittle {
+    adding: 15px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.plan-sub-tittle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #444343;
+    font-size: medium;
+    padding: 15px;
+}
+
+/* call now section */
+.call-now {
+    justify-content: center;
+}
+
+.call-now-box {
+    
+    background: url(../images/watch.png);
+    height: 300px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+   
+    
+
+}
+
+.call-now-tittle {
+    text-align: left;
+}
+
+.button-call-now {
+    text-align: left;
 }
