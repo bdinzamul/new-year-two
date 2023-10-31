@@ -92,7 +92,7 @@
 }
 
 .plan-tittle {
-    adding: 15px;
+    padding: 15px;
     font-size: 25px;
     font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -108,26 +108,91 @@
 
 /* call now section */
 .call-now {
+    display: flex;
     justify-content: center;
+        
 }
 
 .call-now-box {
     
-    background: url(../images/watch.png);
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%) , url(../images/watch.png);
     height: 300px;
     width: 700px;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
-   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 15px;
     
-
 }
 
 .call-now-tittle {
+    margin-top: 85px;
     text-align: left;
+    padding: 15px;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    align-items: center;
+    
 }
 
 .button-call-now {
     text-align: left;
+    color: #005FAC;
+    font-size: 25px;
+    padding: 15px 35px;
+    border-radius: 8px;
+    border-color: ghostwhite;
+    margin-left: 15px;
+}
+/* footer */
+.footer{
+    margin-top: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;  
+}
+.footer1-tittle{
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 50px 0 15px 350px ;
+}
+.footer1-paragraph{
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0 15px 350px ;
+
+}
+.footer-icon{
+    padding: 5px 0 80px 350px ;
+}
+.footer2-tittle{
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 50px 450px 15px 0 ;
+}
+.email{
+    background-color: black;
+    border:solid 2px;
+    border-radius: 8px;
+    border-color: antiquewhite;
+    color: beige;
+    padding: 15px 35px 15px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-button{
+    margin-top: 15px;
+    background-color: rgb(23, 124, 190);
+    padding: 15px 35px 15px 15px;
+    border-radius: 8px;
+    font-weight: 800;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
 }
